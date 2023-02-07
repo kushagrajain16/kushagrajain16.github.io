@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+  }
+  header {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+  }
+  h2 {
+    margin-top: 50px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  footer {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+  #contact-form {
+      background-color: lightgray;
+      padding: 0.5em;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px gray;
+      max-width: 250px;
+      margin: 0.5em auto;
+    }
+  
+    #contact-form div {
+      margin-bottom: 0.5em;
+    }
+  
+    #contact-form label {
+      font-weight: bold;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      width: 100%;
+      padding: 0.25em;
+      border-radius: 2.5px;
+      border: none;
+      box-shadow: 1px 1px 2.5px lightgray;
+      margin-top: 0.125em;
+    }
+  
+    #contact-form textarea {
+      min-height: 75px;
+    }
+  
+    #contact-form button {
+      background-color: blue;
+      color: white;
+      padding: 0.25em 0.5em;
+      border-radius: 2.5px;
+      border: none;
+      box-shadow: 1px 1px 2.5px lightgray;
+      cursor: pointer;
+      margin-top: 0.5em;
+    }
+
+    #loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .dice {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: roll 3s infinite linear;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  @keyframes roll {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
