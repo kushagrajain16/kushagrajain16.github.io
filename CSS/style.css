@@ -144,3 +144,53 @@ footer .container span {
         margin: 5px;
     }
 }
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-twitter{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-instagram{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-linkedin{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-dribbble{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-github{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > table:nth-child(1) > tbody > tr > td:nth-child(2) > div > a.fa.fa-rss{
+    color: #66bfbf;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+body > footer > div:nth-child(1) > a{
+    margin-left: 0;
+}
+
+.links a {
+    text-decoration: none;
+}
