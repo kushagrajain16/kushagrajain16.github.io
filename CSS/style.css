@@ -25,6 +25,7 @@ h3 , h2{
     margin-top: 0 auto;
 }
 img{
+    border-radius: 50%;
     height: 150px;
     width: 150px;
 }
